@@ -42,7 +42,7 @@ jobs:
         env GOPATH=$PWD/gopath go install github.com/missdeer/cicdutil@latest
       
     - name: Upload artifact dlredirector-linux-amd64
-      uses: actions/upload-artifact@v1.0.0
+      uses: actions/upload-artifact@v4.5.0
       with:
         # Artifact name
         name: dlredirector-linux-amd64
@@ -50,7 +50,7 @@ jobs:
         path: dlredirector/linux-amd64
 
     - name: Upload artifact dlredirector-linux-arm-5
-      uses: actions/upload-artifact@v1.0.0
+      uses: actions/upload-artifact@v4.5.0
       with:
         # Artifact name
         name: dlredirector-linux-arm-5
@@ -58,7 +58,7 @@ jobs:
         path: dlredirector/linux-arm-5
 
     - name: Upload artifact dlredirector-linux-arm-6
-      uses: actions/upload-artifact@v1.0.0
+      uses: actions/upload-artifact@v4.5.0
       with:
         # Artifact name
         name: dlredirector-linux-arm-6
@@ -66,7 +66,7 @@ jobs:
         path: dlredirector/linux-arm-6
 
     - name: Upload artifact dlredirector-linux-arm-7
-      uses: actions/upload-artifact@v1.0.0
+      uses: actions/upload-artifact@v4.5.0
       with:
         # Artifact name
         name: dlredirector-linux-arm-7
@@ -74,7 +74,7 @@ jobs:
         path: dlredirector/linux-arm-7
 
     - name: Upload artifact dlredirector-linux-arm64
-      uses: actions/upload-artifact@v1.0.0
+      uses: actions/upload-artifact@v4.5.0
       with:
         # Artifact name
         name: dlredirector-linux-arm64
@@ -82,7 +82,7 @@ jobs:
         path: dlredirector/linux-arm64
 
     - name: Upload artifact dlredirector-darwin-amd64
-      uses: actions/upload-artifact@v1.0.0
+      uses: actions/upload-artifact@v4.5.0
       with:
         # Artifact name
         name: dlredirector-darwin-amd64
@@ -90,7 +90,7 @@ jobs:
         path: dlredirector/darwin-amd64
 
     - name: Upload artifact dlredirector-dragonfly-amd64
-      uses: actions/upload-artifact@v1.0.0
+      uses: actions/upload-artifact@v4.5.0
       with:
         # Artifact name
         name: dlredirector-dragonfly-amd64
@@ -98,7 +98,7 @@ jobs:
         path: dlredirector/dragonfly-amd64
 
     - name: Upload artifact dlredirector-openbsd-amd64
-      uses: actions/upload-artifact@v1.0.0
+      uses: actions/upload-artifact@v4.5.0
       with:
         # Artifact name
         name: dlredirector-openbsd-amd64
@@ -106,7 +106,7 @@ jobs:
         path: dlredirector/openbsd-amd64
 
     - name: Upload artifact dlredirector-netbsd-amd64
-      uses: actions/upload-artifact@v1.0.0
+      uses: actions/upload-artifact@v4.5.0
       with:
         # Artifact name
         name: dlredirector-netbsd-amd64
@@ -114,7 +114,7 @@ jobs:
         path: dlredirector/netbsd-amd64
 
     - name: Upload artifact dlredirector-freebsd-amd64
-      uses: actions/upload-artifact@v1.0.0
+      uses: actions/upload-artifact@v4.5.0
       with:
         # Artifact name
         name: dlredirector-freebsd-amd64
@@ -122,7 +122,7 @@ jobs:
         path: dlredirector/freebsd-amd64
 
     - name: Upload artifact dlredirector-windows-amd64
-      uses: actions/upload-artifact@v1.0.0
+      uses: actions/upload-artifact@v4.5.0
       with:
         # Artifact name
         name: dlredirector-windows-amd64
